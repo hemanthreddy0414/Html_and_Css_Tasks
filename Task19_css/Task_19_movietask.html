@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        }
+        body{
+            background-color: #eee9e9;
+            text-align: center;
+            position: relative;
+        }
+        
+        .card{
+            height:400px ;
+            width:400px ;
+            background-color: rgb(238, 248, 184);
+            border: 3px solid yellow;
+            border-radius: 20px;
+            margin-top: 30px;
+            margin-left: 100px;
+            position: absolute;
+            left: 30%;
+        }
+        .card:hover{
+            box-shadow: 0 5px 5px 5px ;
+        }
+        img{
+            height: 50%;
+            width: 90%;
+            margin: 10px;
+            border-radius: 20px;
+            border: 2px solid black;
+        }
+        img:hover{
+            height: 90%;
+            width: 90%;
+            border-radius: 5px;
+            border: 5px solid #191818;
+        }
+        #button{
+            background-color: rgb(68, 131, 241);
+            border-radius: 10px;
+            border: 3px solid black;
+            padding: 10px;
+            margin-top:10px ;
+        }
+        #button:focus{
+            background-color: rgb(255, 34, 0);
+            color: white;
+            font-family: italic;
+            font-weight: bold;
+
+        }
+        #title{
+            font-family: 80px;
+            font-weight: bold;
+            text-decoration: underline;
+            color: red;
+        }
+        .p1{
+            font-size: 20px;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <div class="card" id="movie1">
+           <img  src="https://tse3.mm.bing.net/th/id/OIP.C_H8GGdor-TtYh1IRJ14DAHaDt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="">
+           <h id="title">BAHUBALI</h><br><br>
+           <p1 class="p1"><b>Gendre:</b>Action </p1><br>
+           <p1 class="p1"><b>Rating:</b>4.9/5 </p1><br>
+           <p1 class="p1"><b>Year:</b>2015 </p1><br>
+           <button id="button">Watch Now</button>
+        </div>
+</body>
+</html>

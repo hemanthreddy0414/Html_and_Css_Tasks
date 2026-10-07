@@ -1,0 +1,11 @@
+.container{
+     display: grid;
+     margin: 10%;
+     border: 5px solid rgb(248, 245, 245);
+     grid-template-columns: 300px 300px 300px;
+     grid-template-rows:300px 300px 300px ;
+    }
+    .box{
+        border: 2px solid white;
+        background-color: aqua;
+    }

@@ -1,0 +1,13 @@
+div{
+    height: 400px;
+    width: 310px;
+    border: 5px solid black;
+    text-align: center;
+    font-size: bold;
+}
+img{
+    height:300px ;
+    width: 300px;
+    border: 5px solid;
+
+}

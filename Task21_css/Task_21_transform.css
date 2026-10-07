@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: aqua;
+    height: 500px;
+    width: 1300px;
+    border: 2px solid black;
+    /* transition: all 2s ease-in 3s;  */
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 200px;
+    width: 200px;
+    border: 3px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(120, 244, 62);
+    
+}
+.box1{
+    background-color: rgb(248, 63, 30);
+     transition: all 1s ease-in ;    
+}
+.box1:hover{
+    transform: rotateX(180deg);
+    background-color: rgb(170, 244, 244);
+}
+.box1 .Back {
+        display: none;
+        transform: rotateX(180deg);
+      }
+      .box1:hover .Front {
+        display: none;
+      }
+      .box1:hover .Back {
+        display: block;
+      }
+      
+.box2{
+    background-color: rgb(234, 152, 52);
+    transition: all 2s ease-in ;   
+}
+.box2:hover{
+    transform: rotateY(180deg);
+    background-color: rgb(242, 244, 124);
+}
+.box2 .Back {
+        display: none;
+        transform: rotateX(180deg);
+      }
+      .box2:hover .Front {
+        display: none;
+      }
+      .box2:hover .Back {
+        display: block;
+      }
+
+.box3{
+    background-color: rgb(226, 63, 202); 
+    transition: all 2s ease-in ;  
+}
+.box3:hover{
+    transform:  rotateX(180deg);
+    background-color:rgb(241, 161, 161);
+}
+.box3 .Back {
+        display: none;
+        transform: rotateX(180deg);
+      }
+      .box3:hover .Front {
+        display: none;
+      }
+      .box3:hover .Back {
+        display: block;
+      }
+.box4{
+    background-color: rgb(243, 232, 36);
+    transition: all 2s ease-in ;   
+}
+.box4:hover{
+    transform: rotateY(180deg);
+    background-color: rgb(152, 237, 145);
+}
+.box4 .Back {
+        display: none;
+        transform: rotateX(180deg);
+      }
+      .box4:hover .Front {
+        display: none;
+      }
+      .box4:hover .Back {
+        display: block;
+      }
